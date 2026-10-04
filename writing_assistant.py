@@ -29,7 +29,7 @@ from datetime import datetime
 # --------------------------------------------------------------------------- #
 DEFAULT_MODELS = {
     "openai": os.getenv("OPENAI_MODEL", "gpt-4o-mini"),
-    "gemini": os.getenv("GEMINI_MODEL", "gemini-2.0-flash"),
+    "gemini": os.getenv("GEMINI_MODEL", "gemini-3.8-flash"),
 }
 TEMP_PRESETS = {"precise": 0.2, "balanced": 0.7, "creative": 1.2}
 TEMP_MIN, TEMP_MAX = 0.0, 2.0  # valid range for both providers
